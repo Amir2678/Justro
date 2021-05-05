@@ -1,0 +1,217 @@
+@font-face{
+    font-family: Shabnam;
+    src: url(./assetes/fonts/Shabnam.woff) format("woff");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Shabnam;
+    font-size: 18px;
+}
+
+.camel{
+    width: 5rem;
+    position: absolute;
+    top: 10%;
+    right: 35%;
+}
+
+.camel-md{
+    width: 5rem;
+    position: absolute;
+    top: 15%;
+    right: 50%;
+}
+
+.icons-md{
+    width: 2px;
+    height: 25rem;
+    background-color: green;
+}
+
+.number-input-left{
+    border: none;
+    border-top: solid gray 1px;
+    border-left: solid gray 1px;
+    border-bottom: solid gray 1px;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    background-color: #fff;
+}
+.number-input-left-desktop{
+    border: none;
+    border-top: solid gray 1px;
+    border-left: solid gray 1px;
+    border-bottom: solid gray 1px;
+    background-color: #fff;
+    z-index: 0;
+}
+
+.number-input-right{
+    border: none;
+    border-top: solid gray 1px;
+    border-right: solid gray 1px;
+    border-bottom: solid gray 1px;
+    outline:none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.number-input-right-desktop{
+    border: none;
+    border-top: solid gray 1px;
+    border-right: solid gray 1px;
+    border-bottom: solid gray 1px;
+    outline:none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 6rem;
+}
+
+.download-button{
+    width: 8rem;
+    height: 2.2rem;
+    background-color: #F06A41;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.download-button-desktop{
+    width: 8rem;
+    height: 2.2rem;
+    background-color: #F06A41;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    z-index: 1;
+    height: 2.45rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.header-download-button{
+    width: 10rem;
+    height: 2.8rem;
+    background-color: #F06A41;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.download-ways{
+    background-color: #01D6A6;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 2rem;
+}.download-ways :hover{
+    cursor: pointer;
+}
+
+.download-ways-desktop{
+    box-shadow: 0px 0px 10px 2px #6D6D6D;
+}
+
+.top{
+    position: absolute;
+    top: 1rem;
+    color: green;
+    font-size: 35px;
+}
+
+.middle{
+    position: absolute;
+    top: 30%;
+    color: black;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 1rem;
+}
+.bottom > :first-child{
+    color: white;
+    background-color: #F06A41;
+    border: solid black 1px;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+.ready{
+    color: white;
+    background-color: #F06A41;
+    border: solid black 1px;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 10%;
+}
+
+.email-input{
+    width: 50%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+}
+
+.enter-email-button{
+    color: white;
+    background-color: #F06A41;
+    border: solid black 1px;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+.bg-overlay-desktop{
+    background: url("./assetes/img/025_footer_Bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: white;
+    color: #fff;
+    width: 100%;
+}
+.bg-overlay-in-footer{
+    background: url("./assetes/img/026_footer_c.right_bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 50px;
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 2rem;
+}
+
+.bg-no-overlay {
+    background: url("./assetes/img/022_bg_amadegisafar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}
+
+.social > div{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
