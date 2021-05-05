@@ -1,1 +1,1 @@
-This is the readme file for the Justro Project.
+Homepage of Justro website using HTML, CSS and Bootstrap.
